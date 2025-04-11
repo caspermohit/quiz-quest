@@ -1,0 +1,54 @@
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.auth-form-paper {
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form-paper h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.auth-form-paper form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-form-paper .MuiTextField-root {
+    background-color: #fff;
+}
+
+.auth-form-paper .MuiButton-root {
+    text-transform: none;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.auth-form-paper .MuiAlert-root {
+    border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .auth-form-paper {
+        padding: 20px;
+    }
+
+    .auth-form-container {
+        padding: 10px;
+    }
+} 
